@@ -1,0 +1,179 @@
+\documentclass[a4paper,10pt]{article}
+%-----------------------------------------------------------
+\usepackage[top=0.75in, bottom=0.75in, left=0.55in, right=0.85in]{geometry}
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage{palatino}
+\usepackage{tabularx}
+\fontfamily{SansSerif}
+\selectfont
+
+\usepackage[T1]{fontenc}
+\usepackage
+%[ansinew]
+[utf8]
+{inputenc}
+
+\usepackage{color}
+\definecolor{mygrey}{gray}{0.75}
+\textheight=9.75in
+\raggedbottom
+
+\setlength{\tabcolsep}{0in}
+\newcommand{\isep}{-2 pt}
+\newcommand{\lsep}{-0.5cm}
+\newcommand{\psep}{-0.6cm}
+\renewcommand{\labelitemii}{$\circ$}
+
+\pagestyle{empty}
+%-----------------------------------------------------------
+%Custom commands
+\newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
+\newcommand{\resheading}[1]{{\small \colorbox{mygrey}{\begin{minipage}{0.975\textwidth}{\textbf{#1 \vphantom{p\^{E}}}}\end{minipage}}}}
+\newcommand{\ressubheading}[3]{
+\begin{tabular*}{6.62in}{l @{\extracolsep{\fill}} r}
+	\textsc{{\textbf{#1}}} & \textsc{\textit{[#2]}} \\
+\end{tabular*}\vspace{-8pt}}
+%-----------------------------------------------------------
+
+\begin{document}
+\hspace{0.5cm}\\[-0.2cm]
+
+\textbf{\Large{Ritwik Bhaduri}} \\
+\indent 61/18 Jorabagan road, \\
+\indent Kolkata, West Bengal, India - 700047\\
+\indent Email-id : \textbf{ritwik.bhaduri@gmail.com} \\
+\indent Mobile No.: \textbf{7687853608} \\
+\indent Alt Mob No.: \textbf{9434233190} \\
+
+\resheading{\textbf{ACADEMIC DETAILS} }\\[\lsep]
+\\ \\
+%\begin{table}[ht!]
+%\begin{center}
+\indent \begin{tabular}{ l @{\hskip 0.15in} l @{\hskip 0.15in} l @{\hskip 0.15in} l @{\hskip 0.15in} l }
+\hline
+\textbf{Examination} & \textbf{Institute} & \textbf{Year} & \textbf{Percentage/\%} \\
+\hline
+Bachelor of Statistics(Honours) II year Fourth semester\,\, & \textit{Indian Statistical Institute} & 2017-18 & 86.8 \\
+Bachelor of Statistics(Honours) II year Third semester\,\, & \textit{Indian Statistical Institute} & 2017-18 & 81.6 \\
+Bachelor of Statistics(Honours) I year Second semester\,\, & \textit{Indian Statistical Institute} & 2016-17 & 87 \\
+Bachelor of Statistics(Honours) I year First semester\,\, & \textit{Indian Statistical Institute} & 2016-17 & 89.25 \\
+Class XII (WBCHSE)  & \textit{R.K. mission, Narendrapur} & 2016 & 93.8 \\
+Class X (WBBSE) & \textit{R.K. mission, Narendrapur} & 2014 & 93.57\\
+\hline
+\end{tabular}
+%\end{center}
+%\end{table}
+\\ \\
+
+\resheading{\textbf{AWARDS AND ACHIVEMENTS} }\\[\lsep]
+\begin{itemize}
+\item \noindent JEE Main Rank - 2714.
+\item \noindent Selected for IIT by clearing JEE advanced
+\item \noindent KVPY rank 481.
+\item \noindent Selected for Chennai Mathematical Institute, BSc Computer Science and Mathematics.
+\item \noindent Recipient of KVPY fellowship
+\item \noindent Eligible for INSPIRE programme by Department of Science and Technology India
+\item \noindent Awarded prize money for meritorious performance in first year.
+\item \noindent Selected for JBNSTS camp, organized by DST-Inspire.
+\end{itemize}
+
+\resheading{\textbf{FIELDS OF INTEREST} }\\[\lsep]
+\begin{itemize}
+\item \noindent Probability, Markov chain, Applied Statistics, Machine learning
+\end{itemize}
+
+\resheading{\textbf{TECHNICAL SKILLS} }\\[\lsep]
+\begin{itemize}
+\item \noindent \textbf{Languages} : C, Python, R 
+\item \noindent \textbf{Tools} (\LaTeX, Rstudio, MS Office (MS Excel, MS Word, MS Powerpoint) ).
+\end{itemize}
+
+\resheading{\textbf{MAJOR PROJECTS AND SEMINAR} }\\[\lsep]
+\begin{itemize}
+\item \textbf{An urn model and the odds ratio-based design
+for clinical trials} (Ongoing Group Project) \\
+ \emph{(Guide:Gopal K. Basak, August'18 - till date)} \\[-0.6cm]
+	\begin{itemize}\itemsep \isep
+	\item Objective : To provide a theoretical justification of using odds ratio based adaptive allocation design of clinical trials.
+	\item The idea here is that while trying to establish which of the two treatments is in fact better, we would like to allocate more patients to a statistically better treatment during the trial itself, thus addressing the trade-off between the efficient estimation and more ethical treatment of the participants.
+
+	\item Studied various topics like Markov chain Monte-Carlo, Urn models etc and some papers related to the topic.
+    \end{itemize}
+
+\item \textbf{Unsupervised learning - K means, Image clustering using K means.
+} (2nd Year summer project) \\
+ \emph{(Guide: Prof. Swagatam Das
+, May'18 - July'18)} \\[-0.6cm]
+	\begin{itemize}\itemsep \isep
+	\item Objective 1 : To study various variations of standard k means and arrive at theoretical results for their convergence (Expressing K means as a gradient descent algorithm and commenting on the convergence rates).
+	\item Objective 2 : Clustering the colours in an image and representing an image with minimal number of colours reducing image size without affecting the quality of the image.
+	\item Implementation of k means and other algorithms in R and Python.
+	\end{itemize}
+
+\item \textbf{Summer Internship in Cryptology }
+(1st Year summer Internship) \\
+ \emph{(R. C. Bose Centre for Cryptology and Security
+, May'17 - July'17)} \\[-0.6cm]
+	\begin{itemize}\itemsep \isep
+	\item Objective : To study different aspects of cryptography and statistical cryptanalysis, learning various public key and private key cryptography, stream and block ciphers etc.
+	\item Implementation of stream and block ciphers in python and C. 
+	\end{itemize}
+
+\item \textbf{Analysis of RC4 streamcipher }
+(1st Year summer project) \\
+ \emph{(Prof. Gutam K. Paul
+, May'17 - July'17)} \\[-0.6cm]
+	\begin{itemize}\itemsep \isep
+	\item Objective : To attack the RC4 streamcipher using bias in the initial bits of output and perform related key cryptanalysis .
+	\item Implemenation of RC4 in python and demonstrating the bias in the initial output . 
+	\end{itemize}
+	
+\item \textbf{Class projects (Statistics) }
+ \\
+ \emph{Prof. Smarajit Bose
+, July'16 - April'17)} \\[-0.6cm]
+	\begin{itemize}\itemsep \isep
+	\item 1) Studying correlation between prices of house and tax payment using simple linear regression in R.
+	\item 2) Studying the effects of natural and artificial factors on climate using Multiple linear regression and Anova in R. 
+	\item 3) Fitting real data to discrete and continuous distributions ( Poisson, Normal and Gamma ) and commenting on the goodness of fit using Pearson's Chi square, P value in R.
+	\end{itemize}
+\end{itemize}
+
+\resheading{\textbf{COURSES} }\\[\lsep]
+\begin{itemize}
+\item Statistical Methods
+\item Probability theory
+\item Stochastic processes and Markov chain
+\item Parametric Inference (ongoing)
+\item Linear Models
+\item Economics
+\item Analysis, Linear Algebra, Abstract Algebra, Differential Equation and Discrete Maths.
+\item Sample Survey (ongoing)
+\item C programming and Design and analysis of algorithms (ongoing)
+\end{itemize}
+
+\resheading{\textbf{ONLINE COURSES} }\\[\lsep]
+\begin{itemize}
+\item \textbf{Cryptography 1 } 
+by Prof. Dan Boneh\\
+Online course offered by \textbf{Stanford University} on Coursera. 
+\end{itemize}
+
+\resheading{\textbf{STRENGTHS} }\\[\lsep]
+\begin{itemize}
+\item \noindent Positive Attitude, Hardworking, Inquisitive, Commitment.
+\end{itemize}
+
+\resheading{\textbf{INTEREST AND HOBBIES} }\\[\lsep]
+\begin{itemize}
+\item \noindent Watching movies, Music, Trekking and Hiking, playing badminton, football etc.
+\end{itemize}
+
+\resheading{\textbf{POSITION OF RESPONSIBILITIES} }\\[\lsep]
+\begin{itemize}
+\item \noindent Event head of short film competition - Montage in college fest from 2017 till date.
+\end{itemize}
+
+\end{document}
+
